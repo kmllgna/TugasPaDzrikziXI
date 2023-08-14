@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kalimantan Timur</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Layout Flexbox</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 and earlier versions.</p>
+
+<header>
+  <h2>Kota</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Kalimantan Barat</a></li>
+      <li><a href="#">Kalimantan Utara</a></li>
+      <li><a href="#">Kalimantan Selatan</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Kalimantan Timur</h1>
+    <P>Kalimantan Timur (disingkat Kaltim) adalah sebuah provinsi Indonesia di Pulau Kalimantan bagian ujung timur yang berbatasan dengan Malaysia, Kalimantan Utara, Kalimantan Tengah, Kalimantan Selatan, Kalimantan Barat, dan Sulawesi..</P>
+    <p> Luas total Kaltim adalah 127.346,92 km² dan populasi sebesar 3.941.766 jiwa (2020).[2]Kalimantan Timur merupakan wilayah dengan kepadatan penduduk terendah ke empat di Indonesia. Ibu kotanya adalah Kota Samarinda.
+        Provinsi Kalimantan Timur sebelum dimekarkan menjadi Kalimantan Utara merupakan provinsi terluas kedua di Indonesia setelah Papua, dengan luas 194.489 km persegi yang hampir sama dengan Pulau Jawa atau sekitar 6,8% dari total luas wilayah Indonesia.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>

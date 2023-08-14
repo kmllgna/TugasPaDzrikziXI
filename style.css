@@ -1,0 +1,22 @@
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+ }
+
+tr, td {
+
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+b{
+    color: rgb(0, 0, 0);
+}
+body{
+    background:  rgba(252, 255, 71, 0.76);
+}
+p{
+    font-size: 23px;
+    text-align: center;
+}
